@@ -47,10 +47,6 @@ export const deleteMusicsError=(error)=>({
 });
 
 
-
-
-
-
 export const updateMusicsStart=(musicInfo)=>({
     type:types.UPDATE_MUSICS_START,
     payload: musicInfo,
