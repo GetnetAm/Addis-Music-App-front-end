@@ -10,6 +10,5 @@ export const createMusicApi= async(music)=>
 export const deleteMusicApi= async(musicId)=>
     await axios.delete(`https://addis-music-api-lna2.onrender.com/musics/${musicId}`, musicId);
 
-
 export const updateMusicApi= async(musicId, musicInfo)=>
     await axios.put(`https://addis-music-api-lna2.onrender.com/musics/${musicId}`, musicInfo);
