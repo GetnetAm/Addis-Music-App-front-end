@@ -10,7 +10,6 @@ const MenuList=[
         icon: <FaLaptopFile />,
         name: "File Manager",
         to:"/fileManager",
-
     },
     {
         id:2,

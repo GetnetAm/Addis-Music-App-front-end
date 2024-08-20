@@ -67,7 +67,6 @@ function MenuPlayList() {
           <FaPlusCircle />
         </i>
       </div>
-
       <div css={listContainer}>
         {PlayList &&
           PlayList.map((list) => (

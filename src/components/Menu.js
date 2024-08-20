@@ -60,7 +60,6 @@ const menuLink1 = css`
     transition: 0.3;
   }
 `;
-
 const menuI1 = css`
   font-size: 18px;
   margin-right: 15px;
@@ -92,6 +91,7 @@ function Menu({ title, menuObject }) {
     <div className="MenuContainer" css={menuContainer}>
       <p css={menuP1}>{title}</p>
       <ul css={menuUl}>
+        
       
         {menuObject &&
           menuObject.map((menu) => (
