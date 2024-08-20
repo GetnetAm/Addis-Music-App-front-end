@@ -12,7 +12,6 @@ function Home() {
   return (
     <div css={mainContainer}>
       <Banner />
-
       <AduioList />
     </div>
   );
