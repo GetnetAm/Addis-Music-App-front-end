@@ -29,9 +29,7 @@ const musicsReducer=(state =initialState, action)=>{
                 ...state,
                 loading: false,
             };
-
-         
-               
+     
         
         case types.DELETE_MUSICS_SUCCESS:
             return{
