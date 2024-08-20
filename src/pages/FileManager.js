@@ -193,8 +193,6 @@ function FileManager({ musicToEdit, clearEdit }) {
   </div>;
   }
 
-
-  
   return (
     <div>
       
