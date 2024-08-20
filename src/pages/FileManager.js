@@ -109,11 +109,6 @@ object-fit: cover;
 
 
 
-
-
-
-
-
 // Helper function to convert file to Base64
 const fileToBase64 = (file) => {
   return new Promise((resolve, reject) => {
