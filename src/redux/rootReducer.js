@@ -5,5 +5,4 @@ const rootReducer=combineReducers({
     data: musicsReducer
 });
 
-
 export default rootReducer;
