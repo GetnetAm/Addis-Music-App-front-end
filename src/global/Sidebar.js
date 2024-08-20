@@ -133,8 +133,6 @@ function Sidebar() {
           </i>
         </div>
 
-      
-    
        <Menu title={"menu"} menuObject={MenuList} />
        <MenuPlayList />
        <TrackList />
