@@ -18,7 +18,6 @@ const trackContainer = css`
     display: none;
   }
 `;
-
 const trackImg = css`
   display: flex;
   align-items: center;
@@ -103,7 +102,6 @@ const desctopI = css`
     cursor: pointer;
   }
 `;
-
 function TrackList() {
   return (
     <div css={trackContainer}>
