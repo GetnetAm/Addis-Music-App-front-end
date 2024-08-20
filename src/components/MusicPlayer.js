@@ -316,7 +316,6 @@ function MusicPlayer({ song, imgSrc, auto }) {
             alt="upload"
           />
         )}
-
         <img src={imgSrc} alt="" css={songImg} />
       </div>
       <div css={songAttributes}>
