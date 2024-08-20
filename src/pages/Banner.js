@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 /** @jsxImportSource @emotion/react */
 
 const container = css`
-  height: 190px;
+  height: 200px;
   position: relative;
   width: 100%;
 `;
