@@ -178,7 +178,7 @@ function FileManager({ musicToEdit, clearEdit }) {
 
 
   if (loading) {
-    return <div class="loading">
+    return <div className="loading">
     <span></span>
     <span></span>
     <span></span>

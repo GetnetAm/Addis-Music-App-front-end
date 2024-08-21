@@ -246,7 +246,7 @@ function AduioList() {
 
 
   if (loading) {
-    return <div class="loading">
+    return <div className="loading">
     <span></span>
     <span></span>
     <span></span>
@@ -255,6 +255,7 @@ function AduioList() {
     <span></span>
   </div>;
   }
+
 
   return (
     <div css={AudioList}>

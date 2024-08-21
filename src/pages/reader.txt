@@ -1,3 +1,15 @@
+ const changePlayPause = () =>{
+    if(audioPlayer.current.paused){
+      audioPlayer.current.play();
+      
+      setPlay(true);
+    }else{
+      audioPlayer.current.pause();
+      setPlay(false);
+    }
+  }
+
+
 Addis Music app for addis software
 
 This project is a simple CRUD (Create, Read, Update, Delete) music application built using React, Redux, and Redux-Saga. The application integrates with a backend API, utilizing JSONPlaceholder for data persistence, and is deployed on Netlify (frontend) and Render (backend). Table of Contents
