@@ -2,7 +2,7 @@
 import { css } from "@emotion/react";
 import Banner from "./Banner";
 import AduioList from "../components/AduioList";
-import { useSelector } from "react-redux";
+
 
 
 const mainContainer = css`
@@ -12,21 +12,10 @@ const mainContainer = css`
 
 
 function Home() {
+
   
-  const {loading} = useSelector(state=> state.data);
 
 
-
-  if (loading) {
-    return <div className="loading">
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>;
-  }
 
 
   return (
