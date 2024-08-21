@@ -255,7 +255,7 @@ function MusicPlayer({ song, imgSrc, auto }) {
 
   const audioPlayer = useRef();
   const progressBar = useRef();
-  const animationRef = useRef();
+  
 
   useEffect(() => {
     const seconds = Math.floor(audioPlayer.current.duration);
@@ -305,13 +305,13 @@ function MusicPlayer({ song, imgSrc, auto }) {
   };
 
 
-  const whilePlaying = () => {
+  // const whilePlaying = () => {
 
-    progressBar.current.value = audioPlayer.current.currentTime;
-    changeCurrentTime();
-    // need to run more than once
-    animationRef.current = requestAnimationFrame(whilePlaying);
-  };
+  //   progressBar.current.value = audioPlayer.current.currentTime;
+  //   changeCurrentTime();
+  //   // need to run more than once
+  //   animationRef.current = requestAnimationFrame(whilePlaying);
+  // };
 
   const changeProgress = () => {
     audioPlayer.current.currentTime = progressBar.current.value;
