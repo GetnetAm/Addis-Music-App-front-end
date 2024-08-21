@@ -1,14 +1,3 @@
- const changePlayPause = () =>{
-    if(audioPlayer.current.paused){
-      audioPlayer.current.play();
-      
-      setPlay(true);
-    }else{
-      audioPlayer.current.pause();
-      setPlay(false);
-    }
-  }
-
 
 Addis Music app for addis software
 
