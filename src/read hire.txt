@@ -83,3 +83,6 @@ If you would like to contribute to this project, please fork the repository and 
 This project is licensed under the free you can download and use it is open source.
 
 Feel free to adjust the content according to your specific implementation details. This README provides a comprehensive overview that will help others understand and use your project.
+
+
+Netlify Page 👍https://addissoftwarmusicapp.netlify.app/
