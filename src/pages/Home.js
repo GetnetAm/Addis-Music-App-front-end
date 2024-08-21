@@ -12,7 +12,9 @@ const mainContainer = css`
 
 
 function Home() {
+  
   const {loading} = useSelector(state=> state.data);
+
 
 
   if (loading) {
